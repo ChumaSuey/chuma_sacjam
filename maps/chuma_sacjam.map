@@ -9,7 +9,7 @@
 "_tb_def" "external:C:/quake-leveldesign-workspace/ironwail/sacjam/sacrilege.fgd"
 "_tb_soft_map_bounds" "none"
 "sounds" "27"
-"message" "Rifting Destillation"
+"message" "Rifting Distillation"
 "worldtype" "2"
 "_sunlight" "300"
 "_sunlight_color" "1 255 170"
@@ -15197,6 +15197,26 @@
 }
 // entity 682
 {
+"classname" "target_autosave"
+"origin" "304 -2144 544"
+"targetname" "t_a04"
+}
+// entity 683
+{
+"classname" "trigger_once"
+"target" "t_a04"
+// brush 0
+{
+( 368 -2240 576 ) ( 368 -2176 528 ) ( 368 -2176 576 ) trigger [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 384 -2272 576 ) ( 368 -2272 528 ) ( 368 -2272 576 ) trigger [ 1 0 0 0 ] [ 0 0 -1 0 ] 180 1 1
+( 384 -2176 528 ) ( 368 -2240 528 ) ( 384 -2240 528 ) trigger [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 384 -2176 768 ) ( 368 -2240 768 ) ( 368 -2176 768 ) trigger [ 1 0 0 0 ] [ 0 -1 0 0 ] 180 1 1
+( 384 -2048 576 ) ( 368 -2048 528 ) ( 384 -2048 528 ) trigger [ -1 0 0 0 ] [ 0 0 -1 0 ] 270 1 1
+( 384 -2176 576 ) ( 384 -2240 528 ) ( 384 -2240 576 ) trigger [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+}
+// entity 684
+{
 "classname" "func_group"
 "_tb_type" "_tb_layer"
 "_tb_name" "Control room"
@@ -15311,7 +15331,7 @@
 ( 1456 -4928 -48 ) ( 1456 -4929 -48 ) ( 1456 -4928 -47 ) wmet4_5 [ 6.123233995736766e-17 -1 0 -16 ] [ 0 0 -1 -16 ] 90 1 1
 }
 }
-// entity 683
+// entity 685
 {
 "classname" "func_group"
 "_minlight_color" "0 1 0"
@@ -15327,7 +15347,7 @@
 ( 2544 -624 96 ) ( 2544 -624 97 ) ( 2544 -623 96 ) sliplonggreen [ 0 1 0 -16 ] [ 0 0 -1 16 ] 270 1 1
 }
 }
-// entity 684
+// entity 686
 {
 "classname" "func_group"
 "_minlight_color" "0 0 1"
@@ -15343,7 +15363,7 @@
 ( 2240 -624 96 ) ( 2240 -624 97 ) ( 2240 -623 96 ) sliplongblue [ 0 1 0 -16 ] [ 0 0 -1 16 ] 180 1 1
 }
 }
-// entity 685
+// entity 687
 {
 "classname" "func_group"
 "_minlight_color" "255 0 255"
@@ -15359,7 +15379,7 @@
 ( 2240 -464 96 ) ( 2240 -464 97 ) ( 2240 -463 96 ) sliplongpink [ 0 1 0 16 ] [ 0 0 -1 16 ] 180 1 1
 }
 }
-// entity 686
+// entity 688
 {
 "classname" "func_group"
 "_minlight_color" "255 246 0"
@@ -15375,7 +15395,7 @@
 ( 2544 -464 96 ) ( 2544 -464 97 ) ( 2544 -463 96 ) sliplongyellow [ 0 1 0 16 ] [ 0 0 -1 16 ] 90 1 1
 }
 }
-// entity 687
+// entity 689
 {
 "classname" "func_group"
 "_minlight_color" "1 0.0352941 0"
@@ -15391,21 +15411,21 @@
 ( 2400 -240 96 ) ( 2400 -240 97 ) ( 2400 -239 96 ) sliplongred [ 0 1 0 -16 ] [ 0 0 -1 16 ] 90 1 1
 }
 }
-// entity 688
+// entity 690
 {
 "classname" "light"
 "origin" "2344 -376 72"
 "wait" "2"
 "_tb_layer" "1"
 }
-// entity 689
+// entity 691
 {
 "classname" "light"
 "origin" "2280 -88 24"
 "_color" "0 1 0.85098"
 "_tb_layer" "1"
 }
-// entity 690
+// entity 692
 {
 "classname" "func_group"
 "_minlight_color" "0 255 255"
@@ -15421,7 +15441,7 @@
 ( 2400 -96 96 ) ( 2400 -96 97 ) ( 2400 -95 96 ) pbtek1_sliplong [ 0 1 0 -32 ] [ 0 0 -1 16 ] 270 1 1
 }
 }
-// entity 691
+// entity 693
 {
 "classname" "light"
 "origin" "2456 -296 72"
@@ -15433,7 +15453,7 @@
 "delay" "5"
 "_tb_layer" "1"
 }
-// entity 692
+// entity 694
 {
 "classname" "light"
 "origin" "2296 -664 72"
@@ -15444,7 +15464,7 @@
 "light" "200"
 "_tb_layer" "1"
 }
-// entity 693
+// entity 695
 {
 "classname" "light"
 "origin" "2344 -664 72"
@@ -15455,7 +15475,7 @@
 "light" "250"
 "_tb_layer" "1"
 }
-// entity 694
+// entity 696
 {
 "classname" "light"
 "origin" "2280 -504 72"
@@ -15466,7 +15486,7 @@
 "light" "220"
 "_tb_layer" "1"
 }
-// entity 695
+// entity 697
 {
 "classname" "light"
 "origin" "2328 -504 72"
@@ -15477,7 +15497,7 @@
 "light" "200"
 "_tb_layer" "1"
 }
-// entity 696
+// entity 698
 {
 "classname" "func_group"
 "_tb_type" "_tb_layer"
@@ -15488,13 +15508,13 @@
 "_tb_layer_hidden" "1"
 "_tb_layer_omit_from_export" "1"
 }
-// entity 697
+// entity 699
 {
 "classname" "testplayerstart"
 "origin" "2096 -320 40"
 "_tb_layer" "2"
 }
-// entity 698
+// entity 700
 {
 "classname" "func_group"
 "_tb_type" "_tb_layer"
@@ -15520,11 +15540,12 @@
 ( 176 -1456 448 ) ( 176 -1472 -80 ) ( 176 -1472 448 ) clip [ 0 1 0 16 ] [ 0 0 -1 0 ] 180 1 1
 }
 }
-// entity 699
+// entity 701
 {
 "classname" "trigger_once"
 "delay" "2"
 "target" "fb03"
+"target2" "tmj02"
 "_tb_layer" "17"
 // brush 0
 {
@@ -15536,7 +15557,7 @@
 ( 832 -2336 144 ) ( 832 -2337 144 ) ( 832 -2336 145 ) trigger [ 6.123233995736766e-17 -1 0 16 ] [ 0 0 -1 16 ] 0 1 1
 }
 }
-// entity 700
+// entity 702
 {
 "classname" "trigger_once"
 "target" "tr01"
@@ -15551,7 +15572,7 @@
 ( 576 -3312 112 ) ( 576 -3312 113 ) ( 576 -3311 112 ) trigger [ 0 1.0000000000000002 0 -16 ] [ 0 0 -1.0000000000000002 -16 ] 90 1 1
 }
 }
-// entity 701
+// entity 703
 {
 "classname" "trigger_once"
 "targetname" "t_o01"
@@ -15568,10 +15589,11 @@
 ( 1168 -3536 256 ) ( 1168 -3568 192 ) ( 1168 -3568 256 ) trigger [ 0 1 0 16 ] [ 0 0 -1 0 ] 90 1 1
 }
 }
-// entity 702
+// entity 704
 {
 "classname" "trigger_once"
 "target" "fb01"
+"killtarget" "sparks01"
 "_tb_layer" "17"
 // brush 0
 {
@@ -15583,7 +15605,7 @@
 ( 960 -2864 272 ) ( 960 -2976 224 ) ( 960 -2976 272 ) trigger [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 703
+// entity 705
 {
 "classname" "trigger_wiremesh"
 "_tb_layer" "17"
@@ -15597,7 +15619,7 @@
 ( 60 -4496 256 ) ( 60 -4496 257 ) ( 60 -4495 256 ) trigger [ 0 -1 0 16 ] [ 0 0 -1 0 ] 270 1 1
 }
 }
-// entity 704
+// entity 706
 {
 "classname" "trigger_secret"
 "_tb_layer" "17"
@@ -15611,7 +15633,7 @@
 ( -640 -4288 192 ) ( -640 -4288 193 ) ( -640 -4287 192 ) trigger [ 0 1.0000000000000002 0 0 ] [ 0 0 -1.0000000000000002 0 ] 90 1 1
 }
 }
-// entity 705
+// entity 707
 {
 "classname" "trigger_once"
 "target" "ss06"
@@ -15627,7 +15649,7 @@
 ( -48 -3152 160 ) ( -48 -3152 161 ) ( -48 -3151 160 ) trigger [ 0 1.0000000000000002 0 -16 ] [ 0 0 -1.0000000000000002 0 ] 180 1 1
 }
 }
-// entity 706
+// entity 708
 {
 "classname" "trigger_textstory"
 "targetname" "tts01"
@@ -15643,7 +15665,7 @@
 ( -56 -3424 144 ) ( -56 -3424 145 ) ( -56 -3423 144 ) trigger [ 0 1.0000000000000002 0 0 ] [ 0 0 -1.0000000000000002 16 ] 180 1 1
 }
 }
-// entity 707
+// entity 709
 {
 "classname" "trigger_once"
 "target" "d03"
@@ -15659,7 +15681,7 @@
 ( -432 -992 384 ) ( -432 -848 384 ) ( -432 -848 160 ) trigger [ 0 1.0000000000000002 0 16 ] [ 0 0 -1.0000000000000002 0 ] 0 1 1
 }
 }
-// entity 708
+// entity 710
 {
 "classname" "trigger_monsterjump"
 "_tb_layer" "17"
@@ -15673,7 +15695,7 @@
 ( 328 -1200 368 ) ( 328 -1216 -160 ) ( 328 -1216 368 ) trigger [ 0 1 0 -16 ] [ 0 0 -1 -16 ] 90 1 1
 }
 }
-// entity 709
+// entity 711
 {
 "classname" "func_wall"
 "_tb_layer" "17"
@@ -15687,7 +15709,7 @@
 ( 208 -1296 368 ) ( 208 -1312 -160 ) ( 208 -1312 368 ) {lattice [ 0 1 0 16 ] [ 0 0 -1 16 ] 0 1 1
 }
 }
-// entity 710
+// entity 712
 {
 "classname" "trigger_wiremesh"
 "_tb_layer" "17"
@@ -15701,7 +15723,7 @@
 ( 208 -1296 368 ) ( 208 -1312 -160 ) ( 208 -1312 368 ) trigger [ 0 1 0 16 ] [ 0 0 -1 16 ] 0 1 1
 }
 }
-// entity 711
+// entity 713
 {
 "classname" "trigger_secret"
 "is_waiting" "1"
@@ -15717,7 +15739,7 @@
 ( 256 -1456 448 ) ( 256 -1472 -80 ) ( 256 -1472 448 ) trigger [ 0 1 0 -16 ] [ 0 0 -1 0 ] 270 1 1
 }
 }
-// entity 712
+// entity 714
 {
 "classname" "func_group"
 "_tb_type" "_tb_layer"
@@ -15752,7 +15774,7 @@
 ( 768 352 112 ) ( 768 480 240 ) ( 768 480 112 ) metal7_1 [ 0 -1 0 -16 ] [ 0 0 -1 -16 ] 270 1 1
 }
 }
-// entity 713
+// entity 715
 {
 "classname" "trigger_trampoline"
 "_tb_layer" "18"
@@ -15766,7 +15788,7 @@
 ( -112 -2400 22 ) ( -112 -2272 150 ) ( -112 -2272 22 ) trigger [ 0 -1 0 -16 ] [ 0 0 -1 -42 ] 90 1 1
 }
 }
-// entity 714
+// entity 716
 {
 "classname" "trigger_trampoline"
 "_tb_layer" "18"
@@ -15780,7 +15802,7 @@
 ( 480 -1376 191 ) ( 480 -1248 319 ) ( 480 -1248 191 ) trigger [ 0 -1 0 -16 ] [ 0 0 -1 -1 ] 90 1 1
 }
 }
-// entity 715
+// entity 717
 {
 "classname" "trigger_trampoline"
 "_tb_layer" "18"
@@ -15794,7 +15816,7 @@
 ( 768 352 108 ) ( 768 480 236 ) ( 768 480 108 ) trigger [ 0 -1 0 -16 ] [ 0 0 -1 -20 ] 0 1 1
 }
 }
-// entity 716
+// entity 718
 {
 "classname" "func_group"
 "_tb_type" "_tb_layer"
@@ -15802,7 +15824,7 @@
 "_tb_id" "91"
 "_tb_layer_sort_index" "4"
 }
-// entity 717
+// entity 719
 {
 "classname" "item_shells"
 "origin" "1328 -3872 208"
@@ -15810,7 +15832,7 @@
 "spawnflags" "65"
 "_tb_layer" "91"
 }
-// entity 718
+// entity 720
 {
 "classname" "item_spikes"
 "origin" "1328 -3792 208"
@@ -15818,7 +15840,7 @@
 "spawnflags" "65"
 "_tb_layer" "91"
 }
-// entity 719
+// entity 721
 {
 "classname" "item_cells"
 "origin" "832 -3712 192"
@@ -15826,7 +15848,7 @@
 "spawnflags" "65"
 "_tb_layer" "91"
 }
-// entity 720
+// entity 722
 {
 "classname" "item_rockets"
 "origin" "784 -3744 192"
@@ -15834,7 +15856,7 @@
 "spawnflags" "65"
 "_tb_layer" "91"
 }
-// entity 721
+// entity 723
 {
 "classname" "item_cells"
 "origin" "832 -3776 192"
@@ -15842,7 +15864,7 @@
 "spawnflags" "65"
 "_tb_layer" "91"
 }
-// entity 722
+// entity 724
 {
 "classname" "item_health"
 "origin" "1072 -3056 240"
@@ -15852,7 +15874,7 @@
 "respawndelay" "20"
 "_tb_layer" "91"
 }
-// entity 723
+// entity 725
 {
 "classname" "item_armor2"
 "origin" "1072 -2976 240"
@@ -15860,7 +15882,7 @@
 "spawnflags" "16448"
 "_tb_layer" "91"
 }
-// entity 724
+// entity 726
 {
 "classname" "item_health"
 "origin" "1264 -4080 256"
@@ -15868,7 +15890,7 @@
 "spawnflags" "16448"
 "_tb_layer" "91"
 }
-// entity 725
+// entity 727
 {
 "classname" "item_health"
 "origin" "1104 -4400 256"
@@ -15876,7 +15898,7 @@
 "spawnflags" "16448"
 "_tb_layer" "91"
 }
-// entity 726
+// entity 728
 {
 "classname" "item_spikes"
 "origin" "1040 -4384 224"
@@ -15884,7 +15906,7 @@
 "spawnflags" "1"
 "_tb_layer" "91"
 }
-// entity 727
+// entity 729
 {
 "classname" "monster_enforcer"
 "origin" "864 -4368 360"
@@ -15916,9 +15938,10 @@
 "spawn_angry" "1"
 "targetname" "Ahzrak"
 "delay" "2"
+"berserk" "1"
 "_tb_layer" "91"
 }
-// entity 728
+// entity 730
 {
 "classname" "func_group"
 "_tb_type" "_tb_layer"
@@ -15928,7 +15951,7 @@
 "_tb_layer_hidden" "1"
 "_tb_layer_omit_from_export" "1"
 }
-// entity 729
+// entity 731
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -15937,7 +15960,7 @@
 "_tb_linked_group_id" "{b74406fd-4d90-48cb-a34d-6133866b6557}"
 "_tb_layer" "92"
 }
-// entity 730
+// entity 732
 {
 "classname" "monster_enforcer"
 "origin" "-464 -3184 392"
@@ -15956,7 +15979,7 @@
 "obit_name" "the Shock Trooper"
 "_tb_group" "88"
 }
-// entity 731
+// entity 733
 {
 "classname" "monster_enforcer"
 "origin" "416 896 312"
@@ -15973,7 +15996,7 @@
 "obit_name" "the Shock Trooper"
 "_tb_group" "88"
 }
-// entity 732
+// entity 734
 {
 "classname" "monster_enforcer"
 "origin" "256 896 536"
@@ -15990,7 +16013,7 @@
 "obit_name" "the Shock Trooper"
 "_tb_group" "88"
 }
-// entity 733
+// entity 735
 {
 "classname" "func_group"
 "_tb_type" "_tb_layer"
@@ -15998,7 +16021,7 @@
 "_tb_id" "94"
 "_tb_layer_sort_index" "6"
 }
-// entity 734
+// entity 736
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -16007,7 +16030,7 @@
 "_tb_linked_group_id" "{bb7454d0-c5f6-4924-9604-69a5be8a5d1b}"
 "_tb_layer" "94"
 }
-// entity 735
+// entity 737
 {
 "classname" "monster_ogre"
 "origin" "-464 -3184 392"
@@ -16028,7 +16051,7 @@
 "snd_misc2" "weapons/sgun1.wav"
 "_tb_group" "93"
 }
-// entity 736
+// entity 738
 {
 "classname" "monster_ogre"
 "origin" "416 896 312"
@@ -16047,7 +16070,7 @@
 "skin_proj" "29"
 "_tb_group" "93"
 }
-// entity 737
+// entity 739
 {
 "classname" "monster_ogre"
 "origin" "256 896 536"
@@ -16065,4 +16088,29 @@
 "snd_misc2" "weapons/sgun1.wav"
 "skin_proj" "29"
 "_tb_group" "93"
+}
+// entity 740
+{
+"classname" "func_group"
+"_tb_type" "_tb_layer"
+"_tb_name" "Trigger_monsterjumpforfunpostprod"
+"_tb_id" "95"
+"_tb_layer_sort_index" "7"
+}
+// entity 741
+{
+"classname" "trigger_monsterjump"
+"is_waiting" "1"
+"angle" "180"
+"targetname" "tmj02"
+"_tb_layer" "95"
+// brush 0
+{
+( 544 -1504 416 ) ( 544 -1456 400 ) ( 544 -1456 416 ) trigger [ 0 -1 0 0 ] [ 0 0 -1 0 ] 180 1 1
+( 576 -1504 416 ) ( 560 -1504 400 ) ( 560 -1504 416 ) trigger [ 1 0 0 16 ] [ 0 0 -1 0 ] 270 1 1
+( 576 -1456 400 ) ( 560 -1504 400 ) ( 576 -1504 400 ) trigger [ -1 0 0 -16 ] [ 0 -1 0 0 ] 270 1 1
+( 576 -1456 416 ) ( 560 -1504 416 ) ( 560 -1456 416 ) trigger [ 1 0 0 16 ] [ 0 -1 0 0 ] 270 1 1
+( 576 -928 416 ) ( 560 -928 400 ) ( 576 -928 400 ) trigger [ -1 0 0 -16 ] [ 0 0 -1 0 ] 90 1 1
+( 576 -1456 416 ) ( 576 -1504 400 ) ( 576 -1504 416 ) trigger [ 0 1 0 0 ] [ 0 0 -1 0 ] 270 1 1
+}
 }
