@@ -8946,14 +8946,14 @@
 "classname" "item_shells"
 "origin" "1328 -3696 208"
 "targetname" "sups01"
-"spawnflags" "1"
+"spawnflags" "65"
 }
 // entity 196
 {
 "classname" "item_spikes"
 "origin" "1248 -3696 208"
 "targetname" "sups01"
-"spawnflags" "1"
+"spawnflags" "65"
 }
 // entity 197
 {
@@ -11369,14 +11369,14 @@
 "classname" "func_detail_illusionary"
 // brush 0
 {
-( -168 -1532 452 ) ( -176 -1524 444 ) ( -176 -1524 452 ) sliplongblue [ 0 -1 0 4 ] [ 0 0 -1 16 ] 180 1 1
-( 28 -1712 452 ) ( -168 -1532 444 ) ( -168 -1532 452 ) sliplongblue [ 0 -1 0 4 ] [ 0 0 -1 16 ] 180 1 1
-( 32 -1712 452 ) ( 28 -1712 444 ) ( 28 -1712 452 ) sliplongblue [ 1 0 0 16 ] [ 0 0 -1 36 ] 270 1 1
-( 32 -1712 444 ) ( -168 -1532 444 ) ( 28 -1712 444 ) sliplongblue [ -0.7508847349266277 0.6604332781244228 0 -20.474243 ] [ 0.6604332781244228 0.7508847349266277 0 21.856201 ] 311.33295 1 1
-( 32 -1712 452 ) ( -172 -1524 452 ) ( 24 -1704 452 ) sliplongblue [ -0.7508847349266277 0.6604332781244228 0 -20.474243 ] [ 0.6604332781244228 0.7508847349266277 0 21.856201 ] 311.33295 1 1
-( -176 -1524 452 ) ( -172 -1524 444 ) ( -172 -1524 452 ) sliplongblue [ 1 0 0 20 ] [ 0 0 -1 36 ] 90 1 1
-( 24 -1704 452 ) ( -172 -1524 444 ) ( 24 -1704 444 ) sliplongblue [ 0 -1 0 4 ] [ 0 0 -1 16 ] 90 1 1
-( 32 -1712 452 ) ( 24 -1704 444 ) ( 32 -1712 444 ) sliplongblue [ 0 -1 0 16 ] [ 0 0 -1 16 ] 0 1 1
+( -180 -1520 452 ) ( -168 -1532 452 ) ( -168 -1532 444 ) sliplongblue [ 0 -1 0 4 ] [ 0 0 -1 16 ] 180 1 1
+( -168 -1532 452 ) ( 28 -1712 452 ) ( 28 -1712 444 ) sliplongblue [ 0 -1 0 4 ] [ 0 0 -1 16 ] 180 1 1
+( 28 -1712 452 ) ( 32 -1712 452 ) ( 32 -1712 444 ) sliplongblue [ 1 0 0 16 ] [ 0 0 -1 36 ] 270 1 1
+( 28 -1712 444 ) ( 32 -1712 444 ) ( 24 -1704 444 ) sliplongblue [ -0.7508847349266277 0.6604332781244228 0 -20.474243 ] [ 0.6604332781244228 0.7508847349266277 0 21.856201 ] 311.33295 1 1
+( 24 -1704 452 ) ( 32 -1712 452 ) ( 28 -1712 452 ) sliplongblue [ -0.7508847349266277 0.6604332781244228 0 -20.474243 ] [ 0.6604332781244228 0.7508847349266277 0 21.856201 ] 311.33295 1 1
+( -176 -1520 452 ) ( -180 -1520 452 ) ( -180 -1520 444 ) sliplongblue [ 1 0 0 20 ] [ 0 0 -1 36 ] 180 1 1
+( 24 -1704 444 ) ( 24 -1704 452 ) ( -176 -1520 452 ) sliplongblue [ 0 -1 0 4 ] [ 0 0 -1 16 ] 90 1 1
+( 32 -1712 444 ) ( 32 -1712 452 ) ( 24 -1704 452 ) sliplongblue [ 0 -1 0 16 ] [ 0 0 -1 16 ] 0 1 1
 }
 }
 // entity 390
@@ -15026,12 +15026,12 @@
 "_minlight" "300"
 // brush 0
 {
-( 28 -1712 664 ) ( -180.6078431372589 -1520 664 ) ( -180.6078431372522 -1520 672 ) sliplonggreen [ -0.9999999999999964 1.224646799147349e-16 -8.742278012618954e-08 52 ] [ -8.742278012618954e-08 1.0706202763546619e-23 0.9999999999999964 51.999878 ] 0 1 1
-( -175.60784313725702 -1519.542372881355 664 ) ( -175.60784313725821 -1519.5423728813537 672 ) ( -180.6078431372522 -1520 672 ) sliplonggreen [ 1 -1.1102230246251565e-16 0 -11.93457 ] [ 0 0 -1.0000000000000002 44 ] 270 1 1
+( -181 -1520 672 ) ( 28 -1712 672 ) ( 28 -1712 664 ) sliplonggreen [ -0.9999999999999964 1.224646799147349e-16 -8.742278012618954e-08 52 ] [ -8.742278012618954e-08 1.0706202763546619e-23 0.9999999999999964 51.999878 ] 0 1 1
 ( 28 -1712 672 ) ( 32 -1712 672 ) ( 32 -1712 664 ) sliplonggreen [ -4.3711390118605926e-08 5.353101399503199e-24 0.9999999999999993 -12 ] [ 0.9999999999999993 -1.2246467991473525e-16 4.3711390118605926e-08 0 ] 180 1 1
-( 32 -1712 664 ) ( 32 -1708 664 ) ( -175.60784313725702 -1519.542372881355 664 ) sliplonggreen [ -0.5723446806495631 0.4947385066995215 0.6539536501319327 59.87155 ] [ 0.6539536000959747 0.756534658109932 5.71704460439193e-08 -35.123413 ] 311.53302 1 1
-( -175.60784313725821 -1519.5423728813537 672 ) ( 32 -1708 672 ) ( 32 -1712 672 ) sliplonggreen [ -0.5723446806495631 0.4947385066995215 0.6539536501319327 59.87155 ] [ 0.6539536000959747 0.756534658109932 5.71704460439193e-08 -35.123413 ] 48.46698 1 1
-( -175.60784313725821 -1519.5423728813537 672 ) ( -175.60784313725702 -1519.542372881355 664 ) ( 32 -1708 664 ) sliplonggreen [ -4.3711390118605926e-08 5.353101399503199e-24 0.9999999999999993 -12 ] [ 0.9999999999999993 -1.2246467991473525e-16 4.3711390118605926e-08 -20 ] 0 1 1
+( 32 -1712 664 ) ( 32 -1708 664 ) ( -176 -1520 664 ) sliplonggreen [ -0.5723446806495631 0.4947385066995215 0.6539536501319327 59.87155 ] [ 0.6539536000959747 0.756534658109932 5.71704460439193e-08 -35.123413 ] 311.53302 1 1
+( -176 -1520 672 ) ( 32 -1708 672 ) ( 32 -1712 672 ) sliplonggreen [ -0.5723446806495631 0.4947385066995215 0.6539536501319327 59.87155 ] [ 0.6539536000959747 0.756534658109932 5.71704460439193e-08 -35.123413 ] 48.46698 1 1
+( -176 -1520 672 ) ( -181 -1520 672 ) ( -181 -1520 664 ) sliplonggreen [ 1 -1.1102230246251565e-16 0 -11.93457 ] [ 0 0 -1.0000000000000002 44 ] 270 1 1
+( 32 -1708 664 ) ( 32 -1708 672 ) ( -176 -1520 672 ) sliplonggreen [ -4.3711390118605926e-08 5.353101399503199e-24 0.9999999999999993 -12 ] [ 0.9999999999999993 -1.2246467991473525e-16 4.3711390118605926e-08 -20 ] 0 1 1
 ( 32 -1712 672 ) ( 32 -1708 672 ) ( 32 -1708 664 ) sliplonggreen [ 1.2246467991473532e-16 1 0 0 ] [ 0 0 -1 44 ] 180 1 1
 }
 }
@@ -15101,76 +15101,15 @@
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
-"_tb_name" "Custom Enforcers"
-"_tb_id" "88"
-"_tb_linked_group_id" "{b74406fd-4d90-48cb-a34d-6133866b6557}"
-}
-// entity 673
-{
-"classname" "monster_enforcer"
-"origin" "-464 -3184 392"
-"angle" "90"
-"spawnflags" "8"
-"spawn_angry" "1"
-"style" "4"
-"berserk" "1"
-"damage_mod" "3"
-"health" "150"
-"mdl_head" "progs/gib1.mdl"
-"mdl_body" "models/monsters/enforce2.mdl"
-"mdl_proj" "models/monsters/proj_lightning.mdl"
-"snd_attack" "weapons/lstart.wav"
-"obit_method" "zapped"
-"obit_name" "the Shock Trooper"
-"_tb_group" "88"
-}
-// entity 674
-{
-"classname" "monster_enforcer"
-"origin" "416 896 312"
-"angle" "270"
-"style" "4"
-"berserk" "1"
-"damage_mod" "3"
-"health" "150"
-"mdl_head" "progs/gib1.mdl"
-"mdl_body" "models/monsters/enforce2.mdl"
-"mdl_proj" "models/monsters/proj_lightning.mdl"
-"snd_attack" "weapons/lstart.wav"
-"obit_method" "zapped"
-"obit_name" "the Shock Trooper"
-"_tb_group" "88"
-}
-// entity 675
-{
-"classname" "monster_enforcer"
-"origin" "256 896 536"
-"angle" "270"
-"style" "4"
-"berserk" "1"
-"damage_mod" "3"
-"health" "150"
-"mdl_head" "progs/gib1.mdl"
-"mdl_body" "models/monsters/enforce2.mdl"
-"mdl_proj" "models/monsters/proj_lightning.mdl"
-"snd_attack" "weapons/lstart.wav"
-"obit_method" "zapped"
-"obit_name" "the Shock Trooper"
-"_tb_group" "88"
-}
-// entity 676
-{
-"classname" "func_group"
-"_tb_type" "_tb_group"
 "_tb_name" "Custom army"
 "_tb_id" "89"
 "_tb_linked_group_id" "{6d96de6e-5912-4146-8cf1-b694bf73ec37}"
 }
-// entity 677
+// entity 673
 {
 "classname" "monster_army"
-"origin" "-400 -3168 424"
-"angle" "90"
+"origin" "-480 -2976 296"
+"angle" "0"
 "style" "5"
 "skin" "1"
 "targetname" "ss04"
@@ -15182,7 +15121,7 @@
 "obit_name" "a Nail Grunt"
 "_tb_group" "89"
 }
-// entity 678
+// entity 674
 {
 "classname" "monster_army"
 "origin" "80 -2960 280"
@@ -15194,7 +15133,7 @@
 "obit_name" "a Nail Grunt"
 "_tb_group" "89"
 }
-// entity 679
+// entity 675
 {
 "classname" "monster_army"
 "origin" "-240 -2112 248"
@@ -15206,7 +15145,7 @@
 "obit_name" "a Nail Grunt"
 "_tb_group" "89"
 }
-// entity 680
+// entity 676
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -15214,7 +15153,7 @@
 "_tb_id" "90"
 "_tb_linked_group_id" "{f853a492-9096-4d7e-aa25-ee1e8878e9cd}"
 }
-// entity 681
+// entity 677
 {
 "classname" "monster_ogre"
 "origin" "-768 -3200 336"
@@ -15225,7 +15164,7 @@
 "obit_name" "the multi-grenade Ogre"
 "_tb_group" "90"
 }
-// entity 682
+// entity 678
 {
 "classname" "monster_ogre"
 "origin" "704 -1672 672"
@@ -15235,6 +15174,32 @@
 "obit_method" "split"
 "obit_name" "the multi-grenade Ogre"
 "_tb_group" "90"
+}
+// entity 679
+{
+"classname" "item_spikes"
+"origin" "1088 -3568 208"
+"targetname" "sups01"
+"spawnflags" "1"
+}
+// entity 680
+{
+"classname" "item_shells"
+"origin" "1168 -3568 208"
+"targetname" "sups01"
+"spawnflags" "1"
+}
+// entity 681
+{
+"classname" "item_rockets"
+"origin" "-256 -1200 432"
+"spawnflags" "1"
+}
+// entity 682
+{
+"classname" "item_cells"
+"origin" "176 336 112"
+"spawnflags" "1"
 }
 // entity 683
 {
@@ -15526,6 +15491,7 @@
 "_tb_id" "2"
 "_tb_layer_sort_index" "2"
 "_tb_layer_locked" "1"
+"_tb_layer_hidden" "1"
 "_tb_layer_omit_from_export" "1"
 }
 // entity 698
@@ -15596,6 +15562,7 @@
 "classname" "trigger_once"
 "targetname" "t_o01"
 "target" "ss10"
+"target2" "Ahzrak"
 "_tb_layer" "17"
 // brush 0
 {
@@ -15832,4 +15799,278 @@
 ( 928 384 108 ) ( 992 384 108 ) ( 992 384 236 ) trigger [ -1 0 0 32 ] [ 0 0 -1 -20 ] 270 1 1
 ( 768 352 108 ) ( 768 480 236 ) ( 768 480 108 ) trigger [ 0 -1 0 -16 ] [ 0 0 -1 -20 ] 0 1 1
 }
+}
+// entity 717
+{
+"classname" "func_group"
+"_tb_type" "_tb_layer"
+"_tb_name" "Ahzrak"
+"_tb_id" "91"
+"_tb_layer_sort_index" "4"
+"_tb_layer_hidden" "1"
+"_tb_layer_omit_from_export" "1"
+}
+// entity 718
+{
+"classname" "item_shells"
+"origin" "1168 -3696 208"
+"targetname" "sups01"
+"spawnflags" "1"
+"_tb_layer" "91"
+}
+// entity 719
+{
+"classname" "item_spikes"
+"origin" "1088 -3696 208"
+"targetname" "sups01"
+"spawnflags" "1"
+"_tb_layer" "91"
+}
+// entity 720
+{
+"classname" "item_cells"
+"origin" "832 -3712 192"
+"targetname" "sups01"
+"spawnflags" "65"
+"_tb_layer" "91"
+}
+// entity 721
+{
+"classname" "item_rockets"
+"origin" "784 -3744 192"
+"targetname" "sups01"
+"spawnflags" "65"
+"_tb_layer" "91"
+}
+// entity 722
+{
+"classname" "item_cells"
+"origin" "832 -3776 192"
+"targetname" "sups01"
+"spawnflags" "65"
+"_tb_layer" "91"
+}
+// entity 723
+{
+"classname" "item_health"
+"origin" "1072 -3056 240"
+"targetname" "sups01"
+"spawnflags" "16448"
+"ritem" "1"
+"respawndelay" "20"
+"_tb_layer" "91"
+}
+// entity 724
+{
+"classname" "item_armor2"
+"origin" "1072 -2976 240"
+"targetname" "sups01"
+"spawnflags" "16448"
+"_tb_layer" "91"
+}
+// entity 725
+{
+"classname" "item_health"
+"origin" "1264 -4080 256"
+"targetname" "sups01"
+"spawnflags" "16448"
+"_tb_layer" "91"
+}
+// entity 726
+{
+"classname" "item_health"
+"origin" "1104 -4400 256"
+"targetname" "sups01"
+"spawnflags" "16448"
+"_tb_layer" "91"
+}
+// entity 727
+{
+"classname" "item_spikes"
+"origin" "1040 -4384 224"
+"targetname" "sups01"
+"spawnflags" "1"
+"_tb_layer" "91"
+}
+// entity 728
+{
+"classname" "monster_enforcer"
+"origin" "864 -4368 360"
+"mdl_body" "models/monsters/gremfire.mdl"
+"style" "5"
+"angle" "90"
+"snd_attack" "gremlin/dsplasma.wav"
+"snd_death" "gremlin/death.wav"
+"snd_pain" "gremlin/pain1.wav"
+"snd_sight" "gremlin/sight1.wav"
+"snd_idle" "gremlin/idle.wav"
+"health" "1000"
+"snd_misc" "gremlin/sight1.wav"
+"snd_misc1" "gremlin/sight1.wav"
+"snd_misc2" "gremlin/sight1.wav"
+"snd_misc3" "gremlin/pain2.wav"
+"mdl_proj" "rogue_plasma_large.mdl"
+"obit_method" "cooked"
+"obit_name" "Ahzrak"
+"mdl_head" "progs/gib1.mdl"
+"snd_hit" "gremlin/dsfirxpl.wav"
+"proj_speed_mod" "1.5"
+"homing" ".25"
+"damage_mod" ".5"
+"keep_ammo" "1"
+"effects" "1"
+"skin_proj" "2"
+"spawnflags" "8"
+"spawn_angry" "1"
+"targetname" "Ahzrak"
+"delay" "2"
+"_tb_layer" "91"
+}
+// entity 729
+{
+"classname" "func_group"
+"_tb_type" "_tb_layer"
+"_tb_name" "Enforcers reserved"
+"_tb_id" "92"
+"_tb_layer_sort_index" "5"
+"_tb_layer_hidden" "1"
+"_tb_layer_omit_from_export" "1"
+}
+// entity 730
+{
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "Custom Enforcers"
+"_tb_id" "88"
+"_tb_linked_group_id" "{b74406fd-4d90-48cb-a34d-6133866b6557}"
+"_tb_layer" "92"
+}
+// entity 731
+{
+"classname" "monster_enforcer"
+"origin" "-464 -3184 392"
+"angle" "90"
+"spawnflags" "8"
+"spawn_angry" "1"
+"style" "4"
+"berserk" "1"
+"damage_mod" "3"
+"health" "150"
+"mdl_head" "progs/gib1.mdl"
+"mdl_body" "models/monsters/enforce2.mdl"
+"mdl_proj" "models/monsters/proj_lightning.mdl"
+"snd_attack" "weapons/lstart.wav"
+"obit_method" "zapped"
+"obit_name" "the Shock Trooper"
+"_tb_group" "88"
+}
+// entity 732
+{
+"classname" "monster_enforcer"
+"origin" "416 896 312"
+"angle" "270"
+"style" "4"
+"berserk" "1"
+"damage_mod" "3"
+"health" "150"
+"mdl_head" "progs/gib1.mdl"
+"mdl_body" "models/monsters/enforce2.mdl"
+"mdl_proj" "models/monsters/proj_lightning.mdl"
+"snd_attack" "weapons/lstart.wav"
+"obit_method" "zapped"
+"obit_name" "the Shock Trooper"
+"_tb_group" "88"
+}
+// entity 733
+{
+"classname" "monster_enforcer"
+"origin" "256 896 536"
+"angle" "270"
+"style" "4"
+"berserk" "1"
+"damage_mod" "3"
+"health" "150"
+"mdl_head" "progs/gib1.mdl"
+"mdl_body" "models/monsters/enforce2.mdl"
+"mdl_proj" "models/monsters/proj_lightning.mdl"
+"snd_attack" "weapons/lstart.wav"
+"obit_method" "zapped"
+"obit_name" "the Shock Trooper"
+"_tb_group" "88"
+}
+// entity 734
+{
+"classname" "func_group"
+"_tb_type" "_tb_layer"
+"_tb_name" "Rocketlauncher ogres"
+"_tb_id" "94"
+"_tb_layer_sort_index" "6"
+}
+// entity 735
+{
+"classname" "func_group"
+"_tb_type" "_tb_group"
+"_tb_name" "Custom Enforcers"
+"_tb_id" "93"
+"_tb_linked_group_id" "{bb7454d0-c5f6-4924-9604-69a5be8a5d1b}"
+"_tb_layer" "94"
+}
+// entity 736
+{
+"classname" "monster_ogre"
+"origin" "-464 -3184 392"
+"angle" "90"
+"spawnflags" "0"
+"spawn_angry" "1"
+"style" "4"
+"damage_mod" "4"
+"health" "250"
+"mdl_head" "models/monsters/h_ogrem.mdl"
+"mdl_body" "models/monsters/ogrem.mdl"
+"mdl_proj" "models/monsters/v_spike_rt.mdl"
+"obit_method" "seeked out"
+"obit_name" "the Ogre Sergeant"
+"cust_avelocity" "0 0 0"
+"homing" ".25"
+"skin_proj" "29"
+"snd_misc2" "weapons/sgun1.wav"
+"_tb_group" "93"
+}
+// entity 737
+{
+"classname" "monster_ogre"
+"origin" "416 896 312"
+"angle" "270"
+"style" "4"
+"damage_mod" "4"
+"health" "250"
+"mdl_head" "models/monsters/h_ogrem.mdl"
+"mdl_body" "models/monsters/ogrem.mdl"
+"mdl_proj" "models/monsters/v_spike_rt.mdl"
+"obit_method" "seeked out"
+"obit_name" "the Ogre Sergeant"
+"cust_avelocity" "0 0 0"
+"homing" "0.25"
+"snd_misc2" "weapons/sgun1.wav"
+"skin_proj" "29"
+"_tb_group" "93"
+}
+// entity 738
+{
+"classname" "monster_ogre"
+"origin" "256 896 536"
+"angle" "270"
+"style" "4"
+"damage_mod" "4"
+"health" "250"
+"mdl_head" "models/monsters/h_ogrem.mdl"
+"mdl_body" "models/monsters/ogrem.mdl"
+"mdl_proj" "models/monsters/v_spike_rt.mdl"
+"obit_method" "seeked out"
+"obit_name" "the Ogre Sergeant"
+"cust_avelocity" "0 0 0"
+"homing" "0.25"
+"snd_misc2" "weapons/sgun1.wav"
+"skin_proj" "29"
+"_tb_group" "93"
 }
