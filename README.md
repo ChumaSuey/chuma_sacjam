@@ -41,6 +41,8 @@ The trampolines were an after-thought, i left them in a layer in case i needed t
 
 Shademaster helped me a lot with ideas for the map (the fountain, ambient noises and the mini-boss fight) thanks and shoutout for you!
 
+A final piece of trivia : The map didn't have any "bounce", i usually set it up to 1 but "things happen for a reason", i tried using bounce 1 but the map looked WAAAY too bright, and there was a small softlock possibility with the boots, i did some testing and got to fix it... while also doing my own verifications that the map had no big softlock.
+
 Thank you for playing my map, it was fun making it, best wishes for all of you! Keep reaching for the stars!
 
 
