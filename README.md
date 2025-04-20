@@ -39,11 +39,14 @@ Another interesting fact is that the music by Phoenyx was used in 1x1 Doom wad i
 
 The trampolines were an after-thought, i left them in a layer in case i needed them out of the map quickly but after playtesting i realized they were a good addition to the map.
 
+Shademaster helped me a lot with ideas for the map (the fountain, ambient noises and the mini-boss fight) thanks and shoutout for you!
 
 Thank you for playing my map, it was fun making it, best wishes for all of you! Keep reaching for the stars!
 
 
 ### Special thanks
+
+A special shoutout to Shademaster for helping me with my map in a lot of gameplay feedback, the water fountain, and the fire gremlin boss fight!
 
 A special tribute mention to my friend Meowgi from the Doom Community for helping me for mapping into doom, leading Pacifist Paradise community and never stopped believing in me.  <3
 
