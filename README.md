@@ -37,6 +37,8 @@ A fun fact i wanted to tell about : i was planning to include in Quake Re:vision
 
 Another interesting fact is that the music by Phoenyx was used in 1x1 Doom wad in map 14 (also made by her), if you check a playthrough of the map it emphasizes using neon red lights in a dark space… While both ideas for my map and her have coincidences : I’ve never played this map or seen it prior to making Rifting Distillation, both maps focusing on strong Neon Lights surrouding the area (altho her map only uses Red lines).
 
+The trampolines were an after-thought, i left them in a layer in case i needed them out of the map quickly but after playtesting i realized they were a good addition to the map.
+
 
 Thank you for playing my map, it was fun making it, best wishes for all of you! Keep reaching for the stars!
 
@@ -58,7 +60,7 @@ A special tribute mention to my friend Meowgi from the Doom Community for helpin
 - PyroGXPilot.
 - Shademaster.
 - Lavender
-- Alphaent
+- Alphaent.
 - DevSEb.
 - riktoi.
 - Avix.
@@ -73,6 +75,7 @@ A special tribute mention to my friend Meowgi from the Doom Community for helpin
 - Quake Mapping Discord.
 - Pacifist Paradise.
 - David’s Shack server.
+- Quake music club friends (Immorpher, kegerat0r, Proxy-MIDI)
 - Map-Center.
 - NyxGirlpower’s community.
 - Skillmaster and my friends Ekate, Boris_sdk and Fellow.
