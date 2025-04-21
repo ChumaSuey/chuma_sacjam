@@ -21,7 +21,7 @@ check her work at : https://phoenyx.bandcamp.com
 Sacrilege jam was a tough call, Re:Mobilized while im also part of the main mod team, it’s a challenge to come up with an idea to create something fun and compelling, Re:Mobilized and progs_dump per se are mods i thank to this day that exist, Sacrilege has cool features i’ve been looking for so i jumped on the Sacrilege jam ship.
 
 
-The music track was something i had always in my mind, for the core idea i didn’t want to make a dark synthwave song for it, Phoenyx allowed me to use her track in a Quake map and i thought this was it, i had a bit of inspiration and creative flow lock but after seeing Rift texture i realized that can be an interesting premise, a Water distillation facility and there we go : Rifting Distillation came to fruition.
+The music track was something i had always in my mind, for the core idea i didn’t want to make a dark synthwave song for it, Phoenyx allowed me to use her track in a Quake map and i thought this was it, i had a bit of inspiration and creative flow lock but after seeing Rift texture i realized that can be an interesting premise, a Water distillation facility and there we go : Rifting Distillation had a rocket jump for being made.
 
 
 For this map i recolored some textures from the id base texture pack included within Sacrilege, to make Neon lights, something i’ve been looking forward to do for a while… I’m starting to explore my skills in photo editing with GiMP
@@ -39,7 +39,7 @@ Another interesting fact is that the music by Phoenyx was used in 1x1 Doom wad i
 
 The trampolines were an after-thought, i left them in a layer in case i needed them out of the map quickly but after playtesting i realized they were a good addition to the map.
 
-Shademaster helped me a lot with ideas for the map (the fountain, ambient noises and the mini-boss fight) thanks and shoutout for you!
+Shademaster helped me a lot with ideas for the map (the fountain, ambient noises and the mini-boss fight) thanks and shoutout for him! He was very dedicated in supporting me in the making of this map
 
 A final piece of trivia : The map didn't have any "bounce", i usually set it up to 1 but "things happen for a reason", i tried using bounce 1 but the map looked WAAAY too bright, and there was a small softlock possibility with the boots, i did some testing and got to fix it... while also doing my own verifications that the map had no big softlock.
 
